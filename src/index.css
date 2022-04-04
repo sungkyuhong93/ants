@@ -1,0 +1,127 @@
+* {
+    outline: none !important;
+  }
+  
+  .app {
+    padding: 0 20px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #fdfaea;
+    color: #003f89;
+    font-family: 'Corben', cursive;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  .btn-wrap {
+    margin-right: 20px;
+  }
+  
+  .btn-row {
+    margin: 30px 0;
+  }
+  
+  .btn {
+    padding: 14px;
+    margin: auto;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color:  #003f89;
+    color: #fdfaea;
+    border: 0;
+    font-family: 'Corben', cursive;
+  }
+  
+  .ant0, .ant1, .ant2, .ant3, .ant4 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 80px;
+    background-position: center center;
+  }
+  
+  .ant0 {
+    background-image: url('ants/ant0.png');
+  }
+  
+  .ant1 {
+    background-image: url('ants/ant1.png');
+  }
+  
+  .ant2 {
+    background-image: url('ants/ant2.png');
+  }
+  
+  .ant3 {
+    background-image: url('ants/ant3.png');
+  }
+  
+  .ant4 {
+    background-image: url('ants/ant4.png');
+  }
+  
+  .odds {
+    font-size: 80px;
+    font-family: 'Corben', cursive;
+    font-weight: 700;
+  }
+
+  .ant-row {
+    border-top: 1px solid  #003f89;
+  }
+  
+  .ant-info {
+        padding: 0;
+        text-align: center;
+        width: 155px;
+        margin-bottom: 20px;
+        list-style: none;
+  }
+  
+  .ant-info li {
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  
+  .ant-chances {
+    margin-bottom: 20px;
+  }
+
+  .predicting:after {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    -webkit-animation: ellipsis steps(4, end) 1000ms infinite;
+    animation: ellipsis steps(4,end) 1000ms infinite;
+    content: "\2026";
+    width: 0px;
+  }
+  
+  @keyframes ellipsis {
+    to {
+      width: 1.25em;
+    }
+  }
+  
+  @-webkit-keyframes ellipsis {
+    to {
+      width: 1.25em;
+    }
+  }
